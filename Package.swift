@@ -2,13 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "GoogleMaps",
+    name: "WebRTC",
     products: [
         .library(
             name: "WebRTC",
-            targets: [
-                "WebRTC"
-            ]
+            targets: ["WebRTC"]
         )
     ],
     targets: [
